@@ -1,7 +1,7 @@
 ERL=erl
 ERLC=erlc
 
-PARSER=src/erlydtl/erlydtl_parser
+PARSER=src/erlydtl_parser
 
 all: $(PARSER).erl
 	-mkdir -p ebintest
